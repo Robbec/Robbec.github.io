@@ -71,6 +71,9 @@ body {
   min-height: 5em;
   z-index: 0;
   position: relative;
+  border-top-width: .1em;
+  border-top-style: inset;
+  padding-bottom: 1em;
 }
 
 .rightbox {
@@ -86,13 +89,10 @@ body {
   font-size: 1.5em;
 }
 
-.rightboxwithcontent::before {
-  content: "";
-  position: absolute;
-  font-family: "bootstrap-icons";
-  left:0em;
-  color: tomato;
-  font-size: 1em;
+.rightboxwithcontent {
+  border-top-width: .1em;
+  border-top-style: inset;
+  padding-bottom: 1em;
 }
 
 h1 {

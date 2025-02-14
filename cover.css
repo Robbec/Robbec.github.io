@@ -65,7 +65,7 @@ body {
 * timeline
 */
 .leftbox {
-  border-right-color: steelblue;
+  border-right-color: rgb(242, 219, 255);
   border-right-width: 1em;
   border-right-style: ridge;
   min-height: 5em;
